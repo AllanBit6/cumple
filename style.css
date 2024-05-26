@@ -12,7 +12,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Source Sans Pro";
-    font-size: 5em;
+    font-size: 6em;
     font-weight: 900;
     text-align: center;
      color: #fff;
@@ -28,7 +28,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Source Sans Pro";
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 900;
      color: #fff;
    -webkit-user-select: none;
@@ -39,6 +39,8 @@ body {
   img{
     opacity: 0.6;
     z-index: 0;
+    width: 66vh;
+    height: auto;
     margin: auto;
     display: block;
     position: absolute;
