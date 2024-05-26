@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block;
+    z-index: -1;
+}
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    text-align: center;
+     color: #fff;
+   -webkit-user-select: none;
+    user-select: none;
+    z-index: 2;
+  }
+
+  h2 {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Source Sans Pro";
+    font-size: 2em;
+    font-weight: 900;
+     color: #fff;
+   -webkit-user-select: none;
+    user-select: none;
+    z-index: 2;
+  }
+
+  img{
+    opacity: 0.6;
+    z-index: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+  }
